@@ -1,0 +1,48 @@
+body{
+	font-family: monospace;
+}
+nav{
+	position: fixed;
+	top: 0;
+}
+.cursor{
+	font-weight: 800;
+	animation: 1s blink step-end infinite;
+}
+#small_cursor{
+	font-weight: 800;
+	animation: 1s blink step-end infinite;
+}
+
+@keyframes blink{
+	from, to{
+		color: transparent;
+	}
+
+	50%{
+		color: white;
+	}
+}
+.home{
+	height: 720px;
+}
+#name{	
+	font-family: "Roboto Mono", monospace;	
+	font-size: 68px;
+}
+footer{
+	position: relative;
+	bottom: 0;
+}
+@media only screen and (max-width: 1000px) {
+	#name {
+		   font-size: 34px;
+	}
+	.home{
+		  height: 800px;
+		  font-size: 15px;
+	}
+	footer{
+		font-size: 14px;
+	}
+}
