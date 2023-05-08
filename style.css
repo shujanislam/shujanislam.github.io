@@ -24,7 +24,7 @@ nav{
 	}
 }
 .home{
-	height: 720px;
+	height: 780px;
 }
 #name{	
 	font-family: "Roboto Mono", monospace;	
@@ -39,7 +39,7 @@ footer{
 		   font-size: 34px;
 	}
 	.home{
-		  height: 800px;
+		  height: 860px;
 		  font-size: 15px;
 	}
 	footer{
